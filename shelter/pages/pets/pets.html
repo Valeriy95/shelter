@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="../../accects/favicon/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="../../normalize.css">
+   <link rel="stylesheet" href="style-pets.css">
+   <title>Our pets</title>
+</head>
+<body>
+   <header class="header">
+      <div class="header-container">
+         <div class="logo">
+            <a class="logo__link" href="../main/index.html">
+               <h1 class="logo__title">Cozy House</h1>
+               <p class="logo__text">Shelter for pets in Boston</p>
+            </a>
+         </div>
+         <nav>
+            <ul class="list">
+               <li class="list__item"><a class="list__link" href="../main/index.html">About the shelter</a></li>
+               <li class="list__item"><a class="list_link_active">Our pets</a></li>
+               <li class="list__item"><a class="list__link" href="../main/index.html#helps">Help the shelter</a></li>
+               <li class="list__item"><a class="list__link" href="#footer-id">Contacts</a></li>
+            </ul>
+         </nav>
+         <div class="burger-menu">
+            <span class="burger-menu__line"></span>
+         </div>
+         <div class="burger-menu-fon hidden"></div>
+         <div class="burger-menu-container">
+            <ul class="burger-menu-list">
+               <li class="list__item"><a class="burger-menu-list__link" href="../main/index.html">About the shelter</a></li>
+               <li class="list__item"><a class="burger-menu-list_link_active">Our pets</a></li>
+               <li class="list__item"><a class="burger-menu-list__link" href="../main/index.html#helps">Help the shelter</a></li>
+               <li class="list__item"><a class="burger-menu-list__link" href="#footer-id">Contacts</a></li>
+            </ul>
+      </div>
+   </header>
+   <main class="main">
+      <div class="main-container">
+         <div class="main-wrapper">
+               <h2 class="main__title">Our friends who <br> are looking for a house</h2>
+            <div class="main-table">
+               <div class="main__card-1">
+                  <div class="main__card-1__img"></div>
+                  <h2 class="main__card-1__title"></h2>
+                  <button class="main__card-1__btn"><span class="main__card-1__btn-text">Learn more</span></button>
+               </div>
+               <div class="main__card-2">
+                  <div class="main__card-2__img"></div>
+                  <h2 class="main__card-2__title"></h2>
+                  <button class="main__card-2__btn"><span class="main__card-2__btn-text">Learn more</span></button>
+               </div>
+               <div class="main__card-3">
+                  <div class="main__card-3__img"></div>
+                  <h2 class="main__card-3__title"></h2>
+                  <button class="main__card-3__btn"><span class="main__card-3__btn-text">Learn more</span></button>
+               </div>
+               <div class="main__card-4">
+                  <div class="main__card-4__img"></div>
+                  <h2 class="main__card-4__title"></h2>
+                  <button class="main__card-4__btn"><span class="main__card-4__btn-text">Learn more</span></button>
+               </div>
+               <div class="main__card-5">
+                  <div class="main__card-5__img"></div>
+                  <h2 class="main__card-5__title"></h2>
+                  <button class="main__card-5__btn"><span class="main__card-5__btn-text">Learn more</span></button>
+               </div>
+               <div class="main__card-6">
+                  <div class="main__card-6__img"></div>
+                  <h2 class="main__card-6__title"></h2>
+                  <button class="main__card-6__btn"><span class="main__card-6__btn-text">Learn more</span></button>
+               </div>
+               <div class="main__card-7">
+                  <div class="main__card-7__img"></div>
+                  <h2 class="main__card-7__title"></h2>
+                  <button class="main__card-7__btn"><span class="main__card-7__btn-text">Learn more</span></button>
+               </div>
+               <div class="main__card-8">
+                  <div class="main__card-8__img"></div>
+                  <h2 class="main__card-8__title"></h2>
+                  <button class="main__card-8__btn"><span class="main__card-8__btn-text">Learn more</span></button>
+               </div>
+            </div>
+            <div class="modal-window-container hidden">
+               <div>
+                  <div class="modal-window__icon"><span class="modal-window__text">&times;</span></div>
+                  <div class="modal-window-wrapper">
+                  <div class="modal-window__image"></div>
+                  <div class="modal-window-content">
+                     <h2 class="modal-window__title"></h2>
+                     <p class="modal-window__breed"></p>
+                     <p class="modal-window__describe"></p>
+                     <ul class="modal-window__list">
+                        <li class="modal-window__item"><span class="modal-window__list-title">Age:</span> <span class="modal-window__list-text age"></span></li>
+                        <li class="modal-window__item"><span class="modal-window__list-title">Inoculations:</span> <span class="modal-window__list-text inoculations"></span></li>
+                        <li class="modal-window__item"><span class="modal-window__list-title">Diseases:</span> <span class="modal-window__list-text diseases"></span></li>
+                        <li class="modal-window__item"><span class="modal-window__list-title">Parasites:</span> <span class="modal-window__list-text parasites"></span></li>
+                     </ul>
+                  </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main-paginator">
+               <button class="main-paginator__btn-start disabled"><span class="main-paginator__btn-start-text disabled">&lt;&lt;</span></button>
+               <button class="main-paginator__btn-last disabled"><span class="main-paginator__btn-last-text disabled">&lt;</span></button>
+               <button class="main-paginator__btn-now"><span class="main-paginator__btn-now-text">1</span></button>
+               <button class="main-paginator__btn-next active"><span class="main-paginator__btn-next-text">&gt;</span></button>
+               <button class="main-paginator__btn-end active"><span class="main-paginator__btn-end-text">&gt;&gt;</span></button>
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="footer-container">
+         <div class="footer-wrapper">
+            <div class="footer-content">
+               <h2 class="footer-content__title">For questions and suggestions</h2>
+               <ul class="footer-content__list">
+                  <li class="footer-content__item"><a class="footer-content__email" href="mailto:email@shelter.com">email@shelter.com</a></li>
+                  <li class="footer-content__item"><a class="footer-content__phone" href="tel:+136745677554">+13 674 567 75 54</a></li>
+               </ul>
+            </div>
+            <div class="footer-location" id="footer-id">
+               <h2 class="footer-location__title">We are waiting for your visit</h2>
+               <ul class="footer-location__list">
+                  <li class="footer-location__item"><a class="footer-location__link" href="https://www.google.com/maps/place/%D0%91%D0%BE%D1%81%D1%82%D0%BE%D0%BD,+%D0%9C%D0%B0%D1%81%D1%81%D0%B0%D1%87%D1%83%D1%81%D0%B5%D1%82%D1%81,+%D0%A1%D0%A8%D0%90/@42.3567743,-71.0648377,15z/data=!4m6!3m5!1s0x89e3652d0d3d311b:0x787cbf240162e8a0!8m2!3d42.3600825!4d-71.0588801!16zL20vMDFjeF8"  target="_blank">1 Central Street, Boston (entrance from the store)</a></li>
+                  <li class="footer-location__item"><a class="footer-location__link" href="https://www.google.com/maps/place/%D0%9B%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F/@51.5077185,-0.129273,16z/data=!4m6!3m5!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862!16zL20vMDRqcGw"  target="_blank">18 South Park, London</a></li>
+               </ul>
+            </div>
+            <div class="footer__img"></div>
+         </div>
+      </div>
+   </footer>
+   <script src="pets.js"></script>
+</body>
+</html>
