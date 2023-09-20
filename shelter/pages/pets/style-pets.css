@@ -4,6 +4,7 @@ html {
 
 .header {
    width: 100%;
+   max-width: 1500px;
    height: 120px;
    margin: auto;
    display: flex;
@@ -142,6 +143,9 @@ html {
 .main {
    height: 1342px;
    width: 100%;
+   max-width: 1500px;
+   margin-left: auto;
+   margin-right: auto;
    background: #F6F6F6;
 }
 
@@ -157,8 +161,7 @@ html {
    display: flex;
    flex-direction: column;
    align-items: center;
-   position: absolute;
-   margin-top: 80px;
+   padding-top: 80px;
    margin-left: 3%;
 }
 
@@ -365,6 +368,7 @@ html {
 .main__card-8:hover  {
    cursor: pointer;
    background-color: #FFFFFF;
+   box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
    transition: 0.5s;
 }
 
@@ -591,6 +595,9 @@ html {
 
 .footer {
    width: 100%;
+   max-width: 1500px;
+   margin-left: auto;
+   margin-right: auto;
    height: 350px;
    background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;;
 }
@@ -608,9 +615,8 @@ html {
    justify-content: space-between;
    width: 93.8%;
    height: 310px;
-   position: absolute;
    margin-left: 40px;
-   margin-top: 40px;
+   padding-top: 40px;
 }
 
 .footer-content {
@@ -780,7 +786,7 @@ html {
       width: 92%;
       height: 1603px;
       margin-left: 4%;
-      margin-top: 60px;
+      padding-top: 60px;
    }
 
    .main-table {
@@ -790,7 +796,7 @@ html {
       grid-template-rows: 435px 435px 435px;
       justify-content: space-between;
       align-content: space-between;
-      margin-top: 30px;
+      margin-top: 40px;
    }
 
    .main__card-2__title {
@@ -893,7 +899,7 @@ html {
       grid-template-columns: 47% 47%;
       grid-template-rows: 234px 310px;
       margin-left: 0;
-      margin-top: 17px;
+      padding-top: 15px;
       align-content: space-between;
       justify-content: space-between;
       justify-items: center;
@@ -1069,7 +1075,7 @@ html {
    .main-wrapper {
       width: 93.9%;
       height: 1565px;
-      margin-top: 41px;
+      padding-top: 40px;
       margin-left: 0;
       justify-content: space-between;
    }
@@ -1178,9 +1184,9 @@ html {
 
    .footer-wrapper {
       grid-template-columns: 100%;
-      grid-template-rows: 300px 300px 300px;
+      grid-template-rows: 300px 227px 267px;
       justify-content: center;
-      margin-top: 15px;
+      padding-top: 15px;
       margin-left: 4%;
    }
 
@@ -1228,8 +1234,8 @@ html {
       height: 269px;
       width: 260px;
       background-size: contain;
-      margin-top: -75px;
-      margin-left: 6%;
+      margin-left: auto;
+      margin-right: auto;
    }
 
    .footer-content__phone {
