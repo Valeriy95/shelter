@@ -20,136 +20,136 @@ function burgerMenuOpenClose () {
 
 // 2. Слайдер 
 
-let pets = [
-   {
-     "name": "Jennifer",
-     "img": "../../accects/img/pets-jennifer.png",
-     "type": "Dog",
-     "breed": "Labrador",
-     "description": "Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.",
-     "age": "2 months",
-     "inoculations": ["none"],
-     "diseases": ["none"],
-     "parasites": ["none"]
-   },
-   {
-     "name": "Sophia",
-     "img": "../../accects/img/pets-sohnia.png",
-     "type": "Dog",
-     "breed": "Shih tzu",
-     "description": "Sophia here and I'm looking for my forever home to live out the best years of my life. I am full of energy. Everyday I'm learning new things, like how to walk on a leash, go potty outside, bark and play with toys and I still need some practice.",
-     "age": "1 month",
-     "inoculations": ["parvovirus"],
-     "diseases": ["none"],
-     "parasites": ["none"]
-   },
-   {
-     "name": "Woody",
-     "img": "../../accects/img/pets-woody.png",
-     "type": "Dog",
-     "breed": "Golden Retriever",
-     "description": "Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.",
-     "age": "3 years 6 months",
-     "inoculations": ["adenovirus", "distemper"],
-     "diseases": ["right back leg mobility reduced"],
-     "parasites": ["none"]
-   },
-   {
-     "name": "Scarlett",
-     "img": "../../accects/img/pets-scarlet.png",
-     "type": "Dog",
-     "breed": "Jack Russell Terrier",
-     "description": "Scarlett is a happy, playful girl who will make you laugh and smile. She forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion for a single individual too since she likes to hang out and be with her human.",
-     "age": "3 months",
-     "inoculations": ["parainfluenza"],
-     "diseases": ["none"],
-     "parasites": ["none"]
-   },
-   {
-     "name": "Katrine",
-     "img": "../../accects/img/pets-katrine.png",
-     "type": "Cat",
-     "breed": "British Shorthair",
-     "description": "Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.",
-     "age": "6 months",
-     "inoculations": ["panleukopenia"],
-     "diseases": ["none"],
-     "parasites": ["none"]
-   },
-   {
-     "name": "Timmy",
-     "img": "../../accects/img/pets-timmy.png",
-     "type": "Cat",
-     "breed": "British Shorthair",
-     "description": "Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.",
-     "age": "2 years 3 months",
-     "inoculations": ["calicivirus", "viral rhinotracheitis"],
-     "diseases": ["kidney stones"],
-     "parasites": ["none"]
-   },
-   {
-     "name": "Freddie",
-     "img": "../../accects/img/pets-freddie.png",
-     "type": "Cat",
-     "breed": "British Shorthair",
-     "description": "Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.",
-     "age": "2 months",
-     "inoculations": ["rabies"],
-     "diseases": ["none"],
-     "parasites": ["none"]
-   },
-   {
-     "name": "Charly",
-     "img": "../../accects/img/pets-charly.png",
-     "type": "Dog",
-     "breed": "Jack Russell Terrier",
-     "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
-     "age": "8 years",
-     "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
-     "diseases": ["deafness", "blindness"],
-     "parasites": ["lice", "fleas"]
-   }
- ];
+ let pets = [
+  {
+    "name": "Jennifer",
+    "img": "../../accects/img/pets-jennifer.png",
+    "type": "Dog",
+    "breed": "Labrador",
+    "description": "Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.",
+    "age": "2 months",
+    "inoculations": ["none"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Sophia",
+    "img": "../../accects/img/pets-sohnia.png",
+    "type": "Dog",
+    "breed": "Shih tzu",
+    "description": "Sophia here and I'm looking for my forever home to live out the best years of my life. I am full of energy. Everyday I'm learning new things, like how to walk on a leash, go potty outside, bark and play with toys and I still need some practice.",
+    "age": "1 month",
+    "inoculations": ["parvovirus"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Woody",
+    "img": "../../accects/img/pets-woody.png",
+    "type": "Dog",
+    "breed": "Golden Retriever",
+    "description": "Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.",
+    "age": "3 years 6 months",
+    "inoculations": ["adenovirus", "distemper"],
+    "diseases": ["right back leg mobility reduced"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Scarlett",
+    "img": "../../accects/img/pets-scarlet.png",
+    "type": "Dog",
+    "breed": "Jack Russell Terrier",
+    "description": "Scarlett is a happy, playful girl who will make you laugh and smile. She forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion for a single individual too since she likes to hang out and be with her human.",
+    "age": "3 months",
+    "inoculations": ["parainfluenza"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Katrine",
+    "img": "../../accects/img/pets-katrine.png",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "description": "Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.",
+    "age": "6 months",
+    "inoculations": ["panleukopenia"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Timmy",
+    "img": "../../accects/img/pets-timmy.png",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "description": "Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.",
+    "age": "2 years 3 months",
+    "inoculations": ["calicivirus", "viral rhinotracheitis"],
+    "diseases": ["kidney stones"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Freddie",
+    "img": "../../accects/img/pets-freddie.png",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "description": "Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.",
+    "age": "2 months",
+    "inoculations": ["rabies"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Charly",
+    "img": "../../accects/img/pets-charly.png",
+    "type": "Dog",
+    "breed": "Jack Russell Terrier",
+    "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
+    "age": "8 years",
+    "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
+    "diseases": ["deafness", "blindness"],
+    "parasites": ["lice", "fleas"]
+  }
+];
 
- const wrapper = document.querySelectorAll('.card-wrapper');
- let isOn = true;
- let currentWrapper = 0;
+const wrapper = document.querySelectorAll('.card-wrapper');
+let isOn = true;
+let currentWrapper = 0;
 
- function changeCard (num) {
-  currentWrapper = (num + wrapper.length) % wrapper.length;
+function changeCard (num) {
+ currentWrapper = (num + wrapper.length) % wrapper.length;
 }
 
 function hiddenCard (line) {
-  isOn = false;
-  wrapper[currentWrapper].classList.add(line);
-  wrapper[currentWrapper].addEventListener('animationend', function () {
-    this.classList.remove('current', line);
-  } )
+ isOn = false;
+ wrapper[currentWrapper].classList.add(line);
+ wrapper[currentWrapper].addEventListener('animationend', function () {
+   this.classList.remove('current', line);
+ } )
 }
 
 function showCard (line) {
-  wrapper[currentWrapper].classList.add('next', line);
-  wrapper[currentWrapper].addEventListener('animationend', function () {
-    this.classList.remove('next', line);
-    this.classList.add('current');
-    isOn = true;
-  })
+ wrapper[currentWrapper].classList.add('next', line);
+ wrapper[currentWrapper].addEventListener('animationend', function () {
+   this.classList.remove('next', line);
+   this.classList.add('current');
+   isOn = true;
+ })
 }
 
 function previousCard (num) {
-  showCardPrev(num);
-  hiddenCard('following');
-  changeCard(num - 1);
-  showCard('from-previous');
+ showCardPrev(num);
+ hiddenCard('following');
+ changeCard(num - 1);
+ showCard('from-previous');
 }
 
 function nextCard (num) {
-  showCardNext(num);
-  hiddenCard('previous');
-  changeCard(num + 1);
-  showCard('from-following');
+ showCardNext(num);
+ hiddenCard('previous');
+ changeCard(num + 1);
+ showCard('from-following');
 }
- 
+
 let arrayNum = [0, 1, 2, 3, 4, 5, 6, 7];
 let randomNumber, numberCard;
 let num = 8;
@@ -178,207 +178,207 @@ const card9Name = document.querySelector('.slider__card-9__name');
 const card9Image = document.querySelector('.slider__card-9__image');
 
 function getRandomNum() {
-  randomNumber = Math.floor(Math.random() * num);
-  numberCard = arrayNum.splice(randomNumber, 1);
-  num--;
-  return numberCard;
+ randomNumber = Math.floor(Math.random() * num);
+ numberCard = arrayNum.splice(randomNumber, 1);
+ num--;
+ return numberCard;
 };
 
 
 function starCardPets () {
-  firstPet = getRandomNum();
-  secondPet = getRandomNum();
-  thirdPet = getRandomNum();
-  card1Name.innerText = `${pets[firstPet].name}`;
-  card1Image.style.backgroundImage = `url(${pets[firstPet].img})`;
-  card2Name.innerText = `${pets[secondPet].name}`;
-  card2Image.style.backgroundImage = `url(${pets[secondPet].img})`;
-  card3Name.innerText = `${pets[thirdPet].name}`;
-  card3Image.style.backgroundImage = `url(${pets[thirdPet].img})`;
+ firstPet = getRandomNum();
+ secondPet = getRandomNum();
+ thirdPet = getRandomNum();
+ card1Name.innerText = `${pets[firstPet].name}`;
+ card1Image.style.backgroundImage = `url(${pets[firstPet].img})`;
+ card2Name.innerText = `${pets[secondPet].name}`;
+ card2Image.style.backgroundImage = `url(${pets[secondPet].img})`;
+ card3Name.innerText = `${pets[thirdPet].name}`;
+ card3Image.style.backgroundImage = `url(${pets[thirdPet].img})`;
 }
 
 starCardPets ();
 
 function showCardNext (cur) {
 
-  arrayNum = [0, 1, 2, 3, 4, 5, 6, 7];
-  if (cur == 2) {
-    if (seventhPet == undefined || eigthPet == undefined || ninthPet == undefined) {
-      return
-    } else {
-      let a = arrayNum.indexOf(+seventhPet.join());
-      arrayNum.splice(a, 1);
-      let b = arrayNum.indexOf(+eigthPet.join());
-      arrayNum.splice(b, 1);
-      let c = arrayNum.indexOf(+ninthPet.join());
-      arrayNum.splice(c, 1);
-    }
-    num = 5;
-    firstPet = getRandomNum();
-    secondPet = getRandomNum();
-    thirdPet = getRandomNum();
-    card1Name.innerText = `${pets[firstPet].name}`;
-    card1Image.style.backgroundImage = `url(${pets[firstPet].img})`;
-    card2Name.innerText = `${pets[secondPet].name}`;
-    card2Image.style.backgroundImage = `url(${pets[secondPet].img})`;
-    card3Name.innerText = `${pets[thirdPet].name}`;
-    card3Image.style.backgroundImage = `url(${pets[thirdPet].img})`;
-  }
+ arrayNum = [0, 1, 2, 3, 4, 5, 6, 7];
+ if (cur == 2) {
+   if (seventhPet == undefined || eigthPet == undefined || ninthPet == undefined) {
+     return
+   } else {
+     let a = arrayNum.indexOf(+seventhPet.join());
+     arrayNum.splice(a, 1);
+     let b = arrayNum.indexOf(+eigthPet.join());
+     arrayNum.splice(b, 1);
+     let c = arrayNum.indexOf(+ninthPet.join());
+     arrayNum.splice(c, 1);
+   }
+   num = 5;
+   firstPet = getRandomNum();
+   secondPet = getRandomNum();
+   thirdPet = getRandomNum();
+   card1Name.innerText = `${pets[firstPet].name}`;
+   card1Image.style.backgroundImage = `url(${pets[firstPet].img})`;
+   card2Name.innerText = `${pets[secondPet].name}`;
+   card2Image.style.backgroundImage = `url(${pets[secondPet].img})`;
+   card3Name.innerText = `${pets[thirdPet].name}`;
+   card3Image.style.backgroundImage = `url(${pets[thirdPet].img})`;
+ }
 
-  if (cur == 0) {
-    if (firstPet == undefined || secondPet == undefined || thirdPet == undefined) {
-      return
-    } else {
-      let a = arrayNum.indexOf(+firstPet.join());
-      arrayNum.splice(a, 1);
-      let b = arrayNum.indexOf(+secondPet.join());
-      arrayNum.splice(b, 1);
-      let c = arrayNum.indexOf(+thirdPet.join());
-      arrayNum.splice(c, 1);
-    }
+ if (cur == 0) {
+   if (firstPet == undefined || secondPet == undefined || thirdPet == undefined) {
+     return
+   } else {
+     let a = arrayNum.indexOf(+firstPet.join());
+     arrayNum.splice(a, 1);
+     let b = arrayNum.indexOf(+secondPet.join());
+     arrayNum.splice(b, 1);
+     let c = arrayNum.indexOf(+thirdPet.join());
+     arrayNum.splice(c, 1);
+   }
 
-    num = 5;
-    fourthPet = getRandomNum();
-    fifthPet = getRandomNum();
-    sixthPet = getRandomNum();
-    card4Name.innerText = `${pets[fourthPet].name}`;
-    card4Image.style.backgroundImage = `url(${pets[fourthPet].img})`;
-    card5Name.innerText = `${pets[fifthPet].name}`;
-    card5Image.style.backgroundImage = `url(${pets[fifthPet].img})`;
-    card6Name.innerText = `${pets[sixthPet].name}`;
-    card6Image.style.backgroundImage = `url(${pets[sixthPet].img})`
-  }
+   num = 5;
+   fourthPet = getRandomNum();
+   fifthPet = getRandomNum();
+   sixthPet = getRandomNum();
+   card4Name.innerText = `${pets[fourthPet].name}`;
+   card4Image.style.backgroundImage = `url(${pets[fourthPet].img})`;
+   card5Name.innerText = `${pets[fifthPet].name}`;
+   card5Image.style.backgroundImage = `url(${pets[fifthPet].img})`;
+   card6Name.innerText = `${pets[sixthPet].name}`;
+   card6Image.style.backgroundImage = `url(${pets[sixthPet].img})`
+ }
 
-  if (cur == 1) {
-    if (fourthPet == undefined || fifthPet == undefined || sixthPet == undefined) {
-      return;
-    } else {
-      let a = arrayNum.indexOf(+fourthPet.join());
-      arrayNum.splice(a, 1);
-      let b = arrayNum.indexOf(+fifthPet.join());
-      arrayNum.splice(b, 1);
-      let c = arrayNum.indexOf(+sixthPet.join());
-      arrayNum.splice(c, 1);
-    }
+ if (cur == 1) {
+   if (fourthPet == undefined || fifthPet == undefined || sixthPet == undefined) {
+     return;
+   } else {
+     let a = arrayNum.indexOf(+fourthPet.join());
+     arrayNum.splice(a, 1);
+     let b = arrayNum.indexOf(+fifthPet.join());
+     arrayNum.splice(b, 1);
+     let c = arrayNum.indexOf(+sixthPet.join());
+     arrayNum.splice(c, 1);
+   }
 
-    num = 5;
-    seventhPet = getRandomNum();
-    eigthPet = getRandomNum();
-    ninthPet = getRandomNum();
-    card7Name.innerText = `${pets[seventhPet].name}`;
-    card7Image.style.backgroundImage = `url(${pets[seventhPet].img})`;
-    card8Name.innerText = `${pets[eigthPet].name}`;
-    card8Image.style.backgroundImage = `url(${pets[eigthPet].img})`;
-    card9Name.innerText = `${pets[ninthPet].name}`;
-    card9Image.style.backgroundImage = `url(${pets[ninthPet].img})`;
-  }
+   num = 5;
+   seventhPet = getRandomNum();
+   eigthPet = getRandomNum();
+   ninthPet = getRandomNum();
+   card7Name.innerText = `${pets[seventhPet].name}`;
+   card7Image.style.backgroundImage = `url(${pets[seventhPet].img})`;
+   card8Name.innerText = `${pets[eigthPet].name}`;
+   card8Image.style.backgroundImage = `url(${pets[eigthPet].img})`;
+   card9Name.innerText = `${pets[ninthPet].name}`;
+   card9Image.style.backgroundImage = `url(${pets[ninthPet].img})`;
+ }
 }
 
 function showCardPrev (cur) {
-    
-  arrayNum = [0, 1, 2, 3, 4, 5, 6, 7];
    
-  if (cur == 1) {
-    if (fourthPet == undefined || fifthPet == undefined || sixthPet == undefined) {
-        return
-    } else {
-      let a = arrayNum.indexOf(+fourthPet.join());
-      arrayNum.splice(a, 1);
-      let b = arrayNum.indexOf(+fifthPet.join());
-      arrayNum.splice(b, 1);
-      let c = arrayNum.indexOf(+sixthPet.join());
-      arrayNum.splice(c, 1);
-    }
+ arrayNum = [0, 1, 2, 3, 4, 5, 6, 7];
+  
+ if (cur == 1) {
+   if (fourthPet == undefined || fifthPet == undefined || sixthPet == undefined) {
+       return
+   } else {
+     let a = arrayNum.indexOf(+fourthPet.join());
+     arrayNum.splice(a, 1);
+     let b = arrayNum.indexOf(+fifthPet.join());
+     arrayNum.splice(b, 1);
+     let c = arrayNum.indexOf(+sixthPet.join());
+     arrayNum.splice(c, 1);
+   }
 
-    num = 5;
-    firstPet = getRandomNum();
-    secondPet = getRandomNum();
-    thirdPet = getRandomNum();
-    card1Name.innerText = `${pets[firstPet].name}`;
-    card1Image.style.backgroundImage = `url(${pets[firstPet].img})`;
-    card2Name.innerText = `${pets[secondPet].name}`;
-    card2Image.style.backgroundImage = `url(${pets[secondPet].img})`;
-    card3Name.innerText = `${pets[thirdPet].name}`;
-    card3Image.style.backgroundImage = `url(${pets[thirdPet].img})`;
-  }
-    
-  if (cur == 2) {
-    if (ninthPet == undefined || eigthPet == undefined || seventhPet == undefined) {
-      return
-    } else {
-      let a = arrayNum.indexOf(+seventhPet.join());
-      arrayNum.splice(a, 1);
-      let b = arrayNum.indexOf(+eigthPet.join());
-      arrayNum.splice(b, 1);
-      let c = arrayNum.indexOf(+ninthPet.join());
-      arrayNum.splice(c, 1);
-    }
+   num = 5;
+   firstPet = getRandomNum();
+   secondPet = getRandomNum();
+   thirdPet = getRandomNum();
+   card1Name.innerText = `${pets[firstPet].name}`;
+   card1Image.style.backgroundImage = `url(${pets[firstPet].img})`;
+   card2Name.innerText = `${pets[secondPet].name}`;
+   card2Image.style.backgroundImage = `url(${pets[secondPet].img})`;
+   card3Name.innerText = `${pets[thirdPet].name}`;
+   card3Image.style.backgroundImage = `url(${pets[thirdPet].img})`;
+ }
+   
+ if (cur == 2) {
+   if (ninthPet == undefined || eigthPet == undefined || seventhPet == undefined) {
+     return
+   } else {
+     let a = arrayNum.indexOf(+seventhPet.join());
+     arrayNum.splice(a, 1);
+     let b = arrayNum.indexOf(+eigthPet.join());
+     arrayNum.splice(b, 1);
+     let c = arrayNum.indexOf(+ninthPet.join());
+     arrayNum.splice(c, 1);
+   }
 
-    num = 5;
-    fourthPet = getRandomNum();
-    fifthPet = getRandomNum();
-    sixthPet = getRandomNum();
-    card4Name.innerText = `${pets[fourthPet].name}`;
-    card4Image.style.backgroundImage = `url(${pets[fourthPet].img})`;
-    card5Name.innerText = `${pets[fifthPet].name}`;
-    card5Image.style.backgroundImage = `url(${pets[fifthPet].img})`;
-    card6Name.innerText = `${pets[sixthPet].name}`;
-    card6Image.style.backgroundImage = `url(${pets[sixthPet].img})`
-  }
-    
-  if (cur == 0) {
-    if (firstPet == undefined || secondPet == undefined || thirdPet == undefined) {
-        return;
-    } else {
-      let a = arrayNum.indexOf(+firstPet.join());
-      arrayNum.splice(a, 1);
-      let b = arrayNum.indexOf(+secondPet.join());
-      arrayNum.splice(b, 1);
-      let c = arrayNum.indexOf(+thirdPet.join());
-      arrayNum.splice(c, 1);
-    }
+   num = 5;
+   fourthPet = getRandomNum();
+   fifthPet = getRandomNum();
+   sixthPet = getRandomNum();
+   card4Name.innerText = `${pets[fourthPet].name}`;
+   card4Image.style.backgroundImage = `url(${pets[fourthPet].img})`;
+   card5Name.innerText = `${pets[fifthPet].name}`;
+   card5Image.style.backgroundImage = `url(${pets[fifthPet].img})`;
+   card6Name.innerText = `${pets[sixthPet].name}`;
+   card6Image.style.backgroundImage = `url(${pets[sixthPet].img})`
+ }
+   
+ if (cur == 0) {
+   if (firstPet == undefined || secondPet == undefined || thirdPet == undefined) {
+       return;
+   } else {
+     let a = arrayNum.indexOf(+firstPet.join());
+     arrayNum.splice(a, 1);
+     let b = arrayNum.indexOf(+secondPet.join());
+     arrayNum.splice(b, 1);
+     let c = arrayNum.indexOf(+thirdPet.join());
+     arrayNum.splice(c, 1);
+   }
 
-    num = 5;
-    seventhPet = getRandomNum();
-    eigthPet = getRandomNum();
-    ninthPet = getRandomNum();
-    card7Name.innerText = `${pets[seventhPet].name}`;
-    card7Image.style.backgroundImage = `url(${pets[seventhPet].img})`;
-    card8Name.innerText = `${pets[eigthPet].name}`;
-    card8Image.style.backgroundImage = `url(${pets[eigthPet].img})`;
-    card9Name.innerText = `${pets[ninthPet].name}`;
-    card9Image.style.backgroundImage = `url(${pets[ninthPet].img})`;
-  }
+   num = 5;
+   seventhPet = getRandomNum();
+   eigthPet = getRandomNum();
+   ninthPet = getRandomNum();
+   card7Name.innerText = `${pets[seventhPet].name}`;
+   card7Image.style.backgroundImage = `url(${pets[seventhPet].img})`;
+   card8Name.innerText = `${pets[eigthPet].name}`;
+   card8Image.style.backgroundImage = `url(${pets[eigthPet].img})`;
+   card9Name.innerText = `${pets[ninthPet].name}`;
+   card9Image.style.backgroundImage = `url(${pets[ninthPet].img})`;
+ }
 }
 
 
 const nextBtn = document.querySelector('.slider__btn-right');
- nextBtn.addEventListener('click', function () {
-    if(isOn) {
-      nextCard(currentWrapper);
-      counter++;
-    }
- });
+nextBtn.addEventListener('click', function () {
+   if(isOn) {
+     nextCard(currentWrapper);
+     counter++;
+   }
+});
 
 function sliderNext () {
-  if (counter == 2) { 
-    counter = 1;
-  }
+ if (counter == 2) { 
+   counter = 1;
+ }
 }
 
 
 const previousBtn = document.querySelector('.slider__btn-left');
 previousBtn.addEventListener('click', function () {
-   if(isOn) {
-     previousCard(currentWrapper);
-     counter--;
-   }
+  if(isOn) {
+    previousCard(currentWrapper);
+    counter--;
+  }
 });
 
 function sliderPrev () {
-  if (counter == -1) {
-    counter = 0;
-  }
+ if (counter == -1) {
+   counter = 0;
+ }
 }
 
 
